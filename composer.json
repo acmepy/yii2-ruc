@@ -1,0 +1,21 @@
+{
+    "name": "acmepy/yii2-ruc",
+    "description": "Descarga e Importa los archivos de la SET.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension",""],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hugo Gamarra",
+            "email": "hjgamarra@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "acmepy\\ruc\\": "src/"
+        }
+    }
+}
